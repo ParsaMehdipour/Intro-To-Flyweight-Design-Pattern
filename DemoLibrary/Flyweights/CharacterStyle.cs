@@ -8,9 +8,9 @@
 /// </summary>
 public class CharacterStyle
 {
-    public string Font { get; private set; }
-    public int Size { get; private set; }
-    public ConsoleColor Color { get; private set; }
+    private string Font;
+    private int Size;
+    private ConsoleColor Color;
 
     public CharacterStyle(string font, int size, ConsoleColor color)
     {
