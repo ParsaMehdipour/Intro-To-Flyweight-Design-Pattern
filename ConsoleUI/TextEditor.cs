@@ -3,6 +3,10 @@ using DemoLibrary.Factories;
 using DemoLibrary.Flyweights;
 
 namespace ConsoleUI;
+
+/// <summary>
+/// Client
+/// </summary>
 public class TextEditor
 {
     private List<Character> characters = new List<Character>();
