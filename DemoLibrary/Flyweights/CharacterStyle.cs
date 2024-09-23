@@ -8,15 +8,15 @@
 /// </summary>
 public class CharacterStyle
 {
-    private string Font;
-    private int Size;
-    private ConsoleColor Color;
+    private string font;
+    private int size;
+    private ConsoleColor color;
 
     public CharacterStyle(string font, int size, ConsoleColor color)
     {
-        Font = font;
-        Size = size;
-        Color = color;
+        this.font = font;
+        this.size = size;
+        this.color = color;
     }
 
     /// <summary>
@@ -25,8 +25,8 @@ public class CharacterStyle
     /// <param name="symbol"></param>
     public void Display(char symbol)
     {
-        Console.ForegroundColor = Color;
-        Console.WriteLine($"{symbol} ({Font}, {Size})");
+        Console.ForegroundColor = color;
+        Console.WriteLine($"{symbol} ({font}, {size})");
         Console.ResetColor();
     }
 }
