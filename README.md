@@ -18,3 +18,6 @@ Flyweight is a structural design pattern that lets you fit more objects into the
 5. The Client calculates or stores the extrinsic state of flyweights. From the client’s perspective, a flyweight is a template object which can be configured at runtime by passing some contextual data into parameters of its methods.
 
 6. The Flyweight Factory manages a pool of existing flyweights. With the factory, clients don’t create flyweights directly. Instead, they call the factory, passing it bits of the intrinsic state of the desired flyweight. The factory looks over previously created flyweights and either returns an existing one that matches search criteria or creates a new one if nothing is found.
+
+Image and Description source: Dive Into DESIGN PATTERNS by Alexander Shvets <br/>
+Link to the book : https://refactoring.guru/design-patterns/book
